@@ -1,4 +1,4 @@
-# Unbiased Learning on Unknown Bias (submitted as Paper ID 9744 in CVPR2022)
+# A Conservative Approach for Unbiased Learning on Unknown Biases (CVPR2022)
 
 Pytorch implementation of UBNet
 
@@ -183,3 +183,7 @@ Note that we have reported the average of 3 results in the paper. The uploaded w
 ```
 python main.py -e imagenet_ubnet_test --imagenet_pretrain --ubnet --cuda --checkpoint_orth weights/imagenet_ubnet/imagenet_ubnet.pth --checkpoint weights/imagenet_baseline/imagenet_baseline.pth --data imagenet --data_dir dataset --save_dir exp --gpu=0 --batch_size=512 --model resnet18 --n_class=9
 ```
+
+#### submitted repository
+
+Link: [ulub_submit_2021](https://github.com/ulub2021/ulub_submit_2021)
